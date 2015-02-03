@@ -1,0 +1,19 @@
+function randomphoto(){
+ var fotos =  ["http://upload.wikimedia.org/wikipedia/commons/5/59/Thyssen-Krupp-Quartier-Essen-Q1-2013.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/MOONSETS_OF_FLORIANOPOLIS%2C_BRAZIL.JPG/1024px-MOONSETS_OF_FLORIANOPOLIS%2C_BRAZIL.JPG",
+						   "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Composite_Image_of_NGC_300.jpg/789px-Composite_Image_of_NGC_300.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Andromeda_Galaxy_in_Ultraviolet.jpg/600px-Andromeda_Galaxy_in_Ultraviolet.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Hydrogen_Halos_Around_NGC_4625_and_NGC_4618.jpg/120px-			   						Hydrogen_Halos_Around_NGC_4625_and_NGC_4618.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/9/9a/ChL_REACH.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/3/32/Superluminalmotion.gif",
+							 "http://upload.wikimedia.org/wikipedia/commons/5/5d/Making_a_Nova.jpg",
+							 "http://upload.wikimedia.org/wikipedia/commons/0/0e/Tpyx_hst_big.jpg"];
+							 
+							 
+	var	imagen = document.getElementById("enlaces");
+	var aleatorio = Math.floor(Math.random()*fotos.length);
+	
+	imagen.innerHTML = "<img src="+fotos[aleatorio]+">";					 
+							 
+							 
+}

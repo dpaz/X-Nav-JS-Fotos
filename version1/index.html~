@@ -1,0 +1,12 @@
+<!DOCTYPE HMTL>
+<!Solucion añadiendo un nuevo elemento al DOM>
+<html>
+	<head>
+		<title>Imagen aleatoria</title>
+	</head>
+	<body>
+		<a href="javascript:randomphoto()">Imagen</a>
+		<p id="enlaces"></p>
+		<script src="main.js"></script>
+	</body>
+</hmtl>
